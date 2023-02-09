@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="5Zc:fb):+N[q}sCS{{17" x="0" y="0"></block><block type="device_forever" id="|DPd[ksE,Hccj!b]!k2L" x="240" y="51"><statement name="HANDLER"><block type="controls_if" id="Vs~2Xu7M.!Gf%Mv#587/"><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="device_pin_is_pressed" id="cXE0Vo|!@fMW@/qdINc#"><field name="NAME">TouchPin.P0</field></block></value><statement name="DO0"><block type="device_show_leds" id="5{,6eWcRWkNn$?}AvQ)K"><field name="LEDS">`
+        # . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block></statement></block></xml>
