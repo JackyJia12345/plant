@@ -1,11 +1,22 @@
 basic.forever(function () {
-    if (input.pinIsPressed(TouchPin.P0)) {
+	
+})
+basic.forever(function () {
+    if (pins.digitalReadPin(DigitalPin.P3) == 1) {
         basic.showLeds(`
-            # . . . .
+            # . # . #
+            . # . # .
+            # . # . #
+            . # . # .
+            # . # . #
+            `)
+    } else {
+        basic.showLeds(`
+            # . . . #
             . . . . .
             . . . . .
             . . . . .
-            . . . . .
+            # . . . #
             `)
     }
 })
